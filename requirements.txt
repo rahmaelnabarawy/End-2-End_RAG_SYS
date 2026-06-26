@@ -14,4 +14,4 @@ torch
 pytest==8.3.2
 pandas==2.2.2
 numpy==1.26.4
-python-dotenv==1.0.1ع
+python-dotenv==1.0.1
