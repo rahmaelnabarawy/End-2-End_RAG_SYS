@@ -39,8 +39,3 @@ def needs_ocr(docs: List[Document], min_chars_per_page: int = 40) -> bool:
         return True
     weak_pages = sum(len(d.page_content.strip()) < min_chars_per_page for d in docs)
     return weak_pages / len(docs) > 0.5
-
-
-
-#  Task  1 create folder data/raw  > andr.pdf
-#  Task 2 run this code to test loader on andr.pdf

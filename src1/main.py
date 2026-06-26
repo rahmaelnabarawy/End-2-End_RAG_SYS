@@ -1,5 +1,5 @@
-from src.loaders import load_pdf_pages
-from src.metadata import add_page_descriptions
+from src1.loaders import load_pdf_pages
+from src1.metadata import add_page_descriptions
 
 FILE_PATH = "data/raw/andrew-ng-machine-learning-yearning.pdf"
 
